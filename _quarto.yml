@@ -9,9 +9,9 @@ execute:
 format:
   revealjs:
     theme: [default,custom.scss]
-    logo: images/logos/sticker.png
+    #logo: images/logos/sticker.png
     navigation-mode: vertical
-    footer: <https://aprendeconalf.es/analisis-manual>
+    footer: <https://fralfaro.github.io/Presentations/>
     code-line-numbers: false
     code-tools:
       code-block-bg: true
