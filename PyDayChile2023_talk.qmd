@@ -1,0 +1,15 @@
+---
+title: "Resolviendo tu primera competencia de Kaggle"
+subtitle: "PyDay Chile 2023"
+author: "Francisco Alfaro Medina &nbsp; [{{< fa envelope >}}](mailto:francisco.alfaro.496@gmail.com) [{{< fa brands github >}}](https://github.com/fralfaro) [{{< fa home >}}](https://fralfaro.github.io/portfolio/)"
+institute: Mathematician & Data Scientist
+logo: images/logos/pythonchile.png
+# title-slide-attributes:
+#     #data-background-color: black
+#     data-background-image: images/prompt-julia.png
+#     data-background-size: contain
+lang: es
+fig-align: center
+navigation-mode: vertical
+slide-level: 3
+---

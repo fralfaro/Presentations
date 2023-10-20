@@ -28,3 +28,7 @@ format:
     transition-speed: fast
     template-partials:
       - title-slide.html
+    navbar:
+      tools:
+        - icon: github
+          href: https://github.com/hizocar
