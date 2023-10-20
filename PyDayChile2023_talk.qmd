@@ -13,3 +13,14 @@ fig-align: center
 navigation-mode: vertical
 slide-level: 3
 ---
+
+## Motivación 
+
+----
+### Qué es Kaggle ? 
+
+[Kaggle](https://www.kaggle.com) es una plataforma acceder a conjuntos de datos, participar en
+desafíos y colaborar con otros en proyectos de aprendizaje
+automático.
+
+----

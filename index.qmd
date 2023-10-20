@@ -6,6 +6,8 @@ format:
             dark: [darkly, custom-dark.scss]
             light: [flatly, custom.scss]
 lang: en
+github-icon: <i class="fab fa-github"></i> [GitHub](https://github.com/yourusername)
+linkedin-icon: <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/yourprofile)
 ---
 
 This website serves as a showcase for my presentations delivered at various conferences (using Quarto).
