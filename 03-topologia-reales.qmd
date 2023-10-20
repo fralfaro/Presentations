@@ -3,10 +3,10 @@ title: "Topología de la recta real"
 subtitle: "Análisis Matemático"
 author: "Alfredo Sánchez Alberca &nbsp; [{{< fa envelope >}}](mailto:asalber@ceu.es) [{{< fa brands twitter >}}](https://twitter.com/aprendeconalf) [{{< fa home >}}](https://aprendeconalf.es)"
 institute: Universidad CEU San Pablo
-logo: img/logos/sticker.png
+logo: images/logos/sticker.png
 # title-slide-attributes:
 #     #data-background-color: black
-#     data-background-image: img/prompt-julia.png
+#     data-background-image: images/prompt-julia.png
 #     data-background-size: contain
 lang: es
 fig-align: center
@@ -16,7 +16,7 @@ slide-level: 3
 
 ## La recta real
 
-![](img/topologia-reales/recta-real.png)
+![](images/topologia-reales/recta-real.png)
 
 ## Intervalos y entornos
 

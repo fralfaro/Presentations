@@ -3,10 +3,10 @@ title: "Teoría de conjuntos"
 subtitle: "Análisis Matemático"
 author: "Alfredo Sánchez Alberca &nbsp; [{{< fa envelope >}}](mailto:asalber@ceu.es) [{{< fa brands twitter >}}](https://twitter.com/aprendeconalf) [{{< fa home >}}](https://aprendeconalf.es)"
 institute: Universidad CEU San Pablo
-logo: img/logos/sticker.png
+logo: images/logos/sticker.png
 # title-slide-attributes:
 #     #data-background-color: black
-#     data-background-image: img/prompt-julia.png
+#     data-background-image: images/prompt-julia.png
 #     data-background-size: contain
 lang: es
 fig-align: center
@@ -125,7 +125,7 @@ Dados dos conjuntos $A$ y $B$, se llama _unión_ de $A$ y $B$, y se denota $A\cu
 $$A\cup B = \{x\,:\, x\in A\mbox{ o }x\in B\}.$$
 :::
 
-![Unión de conjuntos](img/teoria-conjuntos/union.png)
+![Unión de conjuntos](images/teoria-conjuntos/union.png)
 
 ---
 
@@ -143,7 +143,7 @@ Dados dos conjuntos $A$ y $B$, se llama _intersección_ de $A$ y $B$, y se denot
 $$A\cap B = \{x\,:\, x\in A\mbox{ y }x\in B\}.$$
 :::
 
-![Intersección de conjuntos](img/teoria-conjuntos/interseccion.png)
+![Intersección de conjuntos](images/teoria-conjuntos/interseccion.png)
 
 ---
 
@@ -161,7 +161,7 @@ Dado un conjunto $A\subset \Omega$, se llama _complemento_ de $A$ con respecto a
 $$\overline A = \{x\in \Omega\,:\, x\not\in A\}.$$
 :::
 
-![Complemento de un conjunto](img/teoria-conjuntos/complemento.png){width=7cm}
+![Complemento de un conjunto](images/teoria-conjuntos/complemento.png){width=7cm}
 
 ---
 
@@ -180,7 +180,7 @@ Dados dos conjuntos $A$ y $B$, se llama _diferencia_ de $A$ y $B$, y se denota $
 $$A-B = \{x\,:\, x\in A\mbox{ y }x\not\in B\}.$$
 :::
 
-![Diferencia de conjuntos](img/teoria-conjuntos/diferencia.png){width=6cm}
+![Diferencia de conjuntos](images/teoria-conjuntos/diferencia.png){width=6cm}
 
 ---
 
@@ -201,7 +201,7 @@ A\triangle B &= \{x\,:\, x\in A-B\mbox{ o }x\in B-A\}\\
 \end{align*}
 :::
 
-![Diferencia simétrica de conjuntos](img/teoria-conjuntos/diferencia-simetrica.png){width=6cm}
+![Diferencia simétrica de conjuntos](images/teoria-conjuntos/diferencia-simetrica.png){width=6cm}
 
 ---
 
@@ -503,17 +503,17 @@ Del mismo modo la función raíz cuadrada $y=f(x)=\sqrt{x}$ no es una función e
 
 ::: {.content-visible when-format="html"}
 :::{layout-ncol="2"}
-![Ejemplo de función](./img/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.png)
+![Ejemplo de función](./images/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.png)
 
-![Ejemplo de no función](./img/teoria-conjuntos/no-funcion.png)
+![Ejemplo de no función](./images/teoria-conjuntos/no-funcion.png)
 :::
 :::
 
 ::: {.content-visible unless-format="html"}
 :::{layout-ncol="2"}
-![Ejemplo de función](./img/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.tex)
+![Ejemplo de función](./images/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.tex)
 
-![Ejemplo de no función](./img/teoria-conjuntos/no-funcion.tex)
+![Ejemplo de no función](./images/teoria-conjuntos/no-funcion.tex)
 :::
 :::
 
@@ -542,7 +542,7 @@ Dada una función $f:A\rightarrow B$, se dice que $f$ es _inyectiva_ si no exist
 $$\forall a_1, a_2 \in A, \mbox{ si } f(a_1) = f(a_2), \mbox{ entonces } a_1 = a_2.$$
 :::
 
-![Función inyectiva y no sobreyectiva](./img/teoria-conjuntos/funcion-inyectiva.png)
+![Función inyectiva y no sobreyectiva](./images/teoria-conjuntos/funcion-inyectiva.png)
 
 ##
 
@@ -553,7 +553,7 @@ Dada una función $f:A\rightarrow B$, se dice que $f$ es _sobreyectiva_ si todo 
 $$\forall b \in B, \exists a\in A, f(a) = b.$$
 :::
 
-![Función sobreyectiva y no inyectiva](./img/teoria-conjuntos/funcion-sobreyectiva.png)
+![Función sobreyectiva y no inyectiva](./images/teoria-conjuntos/funcion-sobreyectiva.png)
 
 ## 
 
@@ -562,22 +562,22 @@ $$\forall b \in B, \exists a\in A, f(a) = b.$$
 Dada una función $f:A\rightarrow B$, se dice que $f$ es _biyectiva_, si $f$ es, a la vez, inyectiva y sobreyectiva.
 :::
 
-![Función biyectiva](./img/teoria-conjuntos/funcion-biyectiva.png)
+![Función biyectiva](./images/teoria-conjuntos/funcion-biyectiva.png)
 
 ---
 
-![Función no inyectiva y no sobreyectiva](img/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.png)
+![Función no inyectiva y no sobreyectiva](images/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.png)
 
 
 ::: {.content-visible unless-format="html"}
 :::{layout-ncol="2"}
-![Función inyectiva y no sobreyectiva](./img/teoria-conjuntos/funcion-inyectiva.tex)
+![Función inyectiva y no sobreyectiva](./images/teoria-conjuntos/funcion-inyectiva.tex)
 
-![Función sobreyectiva y no inyectiva](./img/teoria-conjuntos/funcion-sobreyectiva.tex)
+![Función sobreyectiva y no inyectiva](./images/teoria-conjuntos/funcion-sobreyectiva.tex)
 
-![Función biyectiva](./img/teoria-conjuntos/funcion-biyectiva.tex) 
+![Función biyectiva](./images/teoria-conjuntos/funcion-biyectiva.tex) 
 
-![Función no inyectiva y no sobreyectiva](./img/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.tex)
+![Función no inyectiva y no sobreyectiva](./images/teoria-conjuntos/funcion-no-inyectiva-no-sobreyectiva.tex)
 :::
 :::
 

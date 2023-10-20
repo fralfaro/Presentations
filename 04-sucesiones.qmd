@@ -3,10 +3,10 @@ title: "Sucesiones de números reales"
 subtitle: "Análisis Matemático"
 author: "Alfredo Sánchez Alberca &nbsp; [{{< fa envelope >}}](mailto:asalber@ceu.es) [{{< fa brands twitter >}}](https://twitter.com/aprendeconalf) [{{< fa home >}}](https://aprendeconalf.es)"
 institute: Universidad CEU San Pablo
-logo: img/logos/sticker.png
+logo: images/logos/sticker.png
 # title-slide-attributes:
 #     #data-background-color: black
-#     data-background-image: img/prompt-julia.png
+#     data-background-image: images/prompt-julia.png
 #     data-background-size: contain
 lang: es
 fig-align: center
@@ -82,11 +82,11 @@ Si $a$ es el límite de la sucesión, se dice que la sucesión _converge_ a $a$,
 :::
 
 ::: {.content-visible when-format="html"}
-![](img/sucesiones/limite-sucesion.png)
+![](images/sucesiones/limite-sucesion.png)
 :::
 
 ::: {.content-visible unless-format="html"}
-![](./img/sucesiones/limite-sucesion.tex)
+![](./images/sucesiones/limite-sucesion.tex)
 :::
 
 ---

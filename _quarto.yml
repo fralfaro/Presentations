@@ -9,7 +9,7 @@ execute:
 format:
   revealjs:
     theme: [default,custom.scss]
-    logo: img/logos/sticker.png
+    logo: images/logos/sticker.png
     navigation-mode: vertical
     footer: <https://aprendeconalf.es/analisis-manual>
     code-line-numbers: false
