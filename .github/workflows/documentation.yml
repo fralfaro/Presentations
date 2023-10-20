@@ -1,0 +1,31 @@
+name: Quarto Workflow
+on: [push]
+
+jobs:
+  BuildAndPublish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install Quarto
+        run: pip install quarto
+
+      - name: Install dependencies (si es necesario)
+        run: quarto install
+
+      - name: Build Quarto Document
+        run: quarto render index.qmd
+
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs  # Reemplaza './output' por la carpeta donde Quarto genera la salida
+

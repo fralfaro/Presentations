@@ -1,0 +1,7 @@
+/.quarto/
+*.iml
+*.xml
+/.idea
+_others_
+_build
+/docs
