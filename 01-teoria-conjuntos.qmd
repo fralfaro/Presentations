@@ -12,9 +12,10 @@ lang: es
 fig-align: center
 navigation-mode: vertical
 slide-level: 3
-table-of-contents: true
+toc-title: "Table of Contents"  # Custom TOC title
 ---
 
+# Table of Contents
 
 
 ## Conjuntos
